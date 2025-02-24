@@ -1,0 +1,374 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: "box-sizing";
+}
+body{
+    font-family: Poppins ,Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+   
+    
+}
+.navbar{
+
+    height: 84px;
+   border-bottom: 0.2px solid rgba(128, 128, 128, 0.61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    padding-left: 25px;
+    color: #7E22CE;
+    cursor: pointer;
+       }
+          .menu_nav{
+            color: black;
+          
+          }
+          .menu_list{
+           
+            display: flex;
+            
+          }
+
+          .menu_list a{
+            color:black ;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 1rem;
+            line-height: 24px;
+          }
+          .underline_hover:hover{
+            text-decoration: underline 2px #7E22CE;
+          }
+
+.menu_list i{
+    padding: 10px;
+    font-size: 2rem;
+    color: #7E22CE;
+
+}
+.main_button{
+    width: 155px;
+    margin: 9px;
+    display:flex;
+    justify-content: space-between;
+}
+.button{
+    height: 36px;
+    width: 73px;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    background-color:#7E22CE;
+    font-weight: 600;
+    line-height: 14px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #6B21A8;
+}
+
+/* secondry navbaar */
+.secondry_navbar{
+    height: 40px;
+    border-bottom: 1px solid #EDEDED;
+    box-shadow: 3px 3px #EDEDED;
+   
+    
+
+}
+.secondry_navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sec_nav_contain{
+    width: 1190;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.home i{
+color: #6B21A8;
+font-size: 1rem;
+font-weight: 550;
+cursor: pointer;
+}
+.sec_menu a{
+padding: 12px;
+text-decoration: none;
+color: #6B21A8;
+font-size: 1rem;
+line-height: 24px;
+font-weight: 550;
+}
+.search{
+    color: #6B21A8;
+    font-size: 1rem;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.hero_section{
+    display: flex;
+    height: 384px;
+    
+    
+
+}
+.hero_1{
+    margin: 50px;
+    padding-top: 30px;
+}
+.hero_1 h1{
+line-height: 28px;
+font-size: 34px;
+font-weight: 600;
+}
+.hero_1 h2{
+    line-height: 38px;
+    font-weight: 600;
+}
+.hero_1 p{
+    padding-top: 10px;
+color: #8e95a1;
+}
+span{
+    color: #7E22CE;
+}
+.hero_button{
+    margin-top: 28px;
+}
+.primary{
+    width: 111px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #1F2937;
+    color: white;
+    border: none;
+   margin-right: 5px;
+   font-weight: bold;
+}
+.secondry{
+    width: 111px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #D1D5DB;
+    color: rgb(0, 0, 0);
+    border: none;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.hero_img{
+    background-image: url(assets/hero.jpeg);
+    height: 100%;
+    width: 2035px;
+    clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%);
+
+
+}
+
+.cards{
+    margin: 50px;
+    
+}
+.cards h1{text-align: center;
+    font-weight: 550;
+
+}
+.main_cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    height: 460px;
+    width: 30%;
+    
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px whitesmoke;
+
+}
+.card_img{
+   
+    border-radius: 10px;
+    
+    width: 100%;
+    height: 163;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card_msg{
+    margin: 15px;
+}
+.card_msg p{
+font-size: 12px;
+margin-bottom: 5px;
+}
+.card_msg h3{
+font-size: 18px;
+font-weight: 550;
+}
+    .card_msg span p{
+        color: black;
+        font-size: 16px;
+        margin-top: 9px;
+    }
+
+   
+    .card_main_btn{
+height: 36px;
+width: 131px;
+font-size: 16px;
+font-weight: bold;
+color: white;
+background-color: #7E22CE;
+border: none;
+border-radius: 18px;
+cursor: pointer;
+    }
+    .card_main_btn:hover{
+        background-color: #9333EA;
+    }
+    .btn_margin_1{
+        margin-top: 20px;
+    }
+    .btn_margin_2{
+        margin-top: 23px;
+    }
+    .btn_margin_3{
+        margin-top: 60px;
+        margin-left: 6px;
+    }
+    .feedback{
+        margin: 30px;
+    }
+    .feedback h1{
+        text-align: center;
+        margin: 30px;
+    }
+    .test_box_1{
+        height: 300px;
+        width: 48%;
+        border: 2px solid transparent;
+        background-color: #F3F4F6;
+    }
+    .container{
+        margin: 30px;
+        color: #969DA9;
+    }
+    .img_box{
+height: 17.65px;
+width: 20px;
+filter: grayscale(100%);
+color: #9CA3AF;
+    }
+    .ex_img{
+background-image: url(assets/exclamark.svg);
+background-size: cover;
+height: 100%;
+width: 100%;
+background-repeat: no-repeat;
+
+    }
+   
+    .container p{
+        margin-top: 15px;
+    }
+    .last_n{
+        margin: 30px;
+    }
+   
+    
+    .main_feed_box{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+    }
+    
+    footer{
+        height: 128px;
+        
+        
+        
+        
+    }
+    .foot{
+        padding-top: 40px;
+        margin: 12px;
+        display: flex;
+       justify-content: space-between;
+       
+       
+    }
+    .logo_rec{
+        display: flex;
+        justify-content: start;
+        align-content: start;
+        
+    }
+    .logo_box{
+        height: 48px;
+        width: 48px;
+        
+        
+    }
+    .Harry{
+        height: 100%;
+        width: 100%;
+        background-image: url(assets/logo.webp);
+        background-size: cover;
+    }
+    .type{
+        margin-left: 5px;
+    }
+    .logo_n{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+    .slogan{
+        font-size: 12px;
+        line-height: 16px;
+        color: #9CA3AF;
+
+    }
+    .link_list{
+        
+        
+    }
+    .link_list a{
+        text-decoration: none;
+        color: gray;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        padding: 8px;
+    }
+    .sm{
+        display: flex;
+        
+    }
+    .fb_rec{
+        height: 20px;
+        width: 20px;
+        padding: 8px;
+    }
+    .fb{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+    }
